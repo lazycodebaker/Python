@@ -1,0 +1,12 @@
+
+Relu =>
+	max(0,x)s
+
+leaky_Relu =>
+ 	max(0.1*x,x)
+
+sigmoid =>
+	1/(1+math.exp(-x))
+
+tanh => 
+	(1 -x*x)/(1+x*x) ; where x =math.exp(y)
